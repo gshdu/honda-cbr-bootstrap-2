@@ -7,8 +7,9 @@
 /* ----------------
     utilities
 ---------------- */
-body{
+html, body{
     overflow-x: hidden;
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
