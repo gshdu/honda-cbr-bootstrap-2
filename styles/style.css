@@ -1,6 +1,40 @@
-/* ----------------------
-    common utilities
----------------------- */
+/* -----------
+    fonts
+----------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+/* ----------------
+    utilities
+---------------- */
 body{
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-background-color{
+    background-color: #264653;
+}
+
+.button-design{
+    background-color: #FFFFFF;
+    border-color: #E76F51;
+    color: #E76F51;
+}
+
+.button-design:hover{
+    background-color: #E76F51;
+    color: #FFFFFF;
+}
+.orange-color{
+    color: #E76F51;
+}
+
+.background-orange-color{
+    background-color: #E76F51;
+}
+
+.background-orange-color:hover{
+    background-color: #E76F51;
+    border-color: #E76F51;
 }

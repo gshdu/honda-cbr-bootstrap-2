@@ -21,7 +21,7 @@
     <!-- header section -->
     <header>
 <!-- navigation bar -->
-<nav class="navbar navbar-expand-lg bg-success px-lg-5">
+<nav class="navbar navbar-expand-lg header-background-color px-lg-5">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
           <a class="nav-link link-light" href="https://www.github.com/selfshah/">News</a>
           <a class="nav-link link-light mb-3 mb-lg-0" href="https://www.github.com/selfshah/">Contact</a>
           <a href="https://www.github.com/selfshah/">
-            <button class="btn btn-danger ms-lg-5 link-light">Login</button>
+            <button class="btn background-orange-color ms-lg-5 link-light">Login</button>
           </a>
         </div>
       </div>
@@ -41,13 +41,38 @@
   </nav>
 
   <!-- hero section -->
-<section class="container-fluid bg-success pt-5 px-lg-5">
+<section class="container-fluid header-background-color py-4 px-lg-5">
   <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 align-items-center justify-content-evenly">
     <div class="text-white ps-lg-5">
-      <p>Computer-controlled digital transistorized with electronic advance</p>
+      <p class="fw-lighter">Computer-controlled digital transistorized with electronic advance</p>
       <h1>Honda CBR 300R</h1>
-      <p class="w-75">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-      <button class="btn btn-danger">Purchase</button>
+      <p class="w-75 fw-lighter">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      
+      <!-- Button trigger modal -->
+<button type="button" class="btn background-orange-color text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Purchase
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark" id="staticBackdropLabel">HONDA SALE!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark">
+        HONDA SALE 2022 is again with hot offer. Buy HONDA CBR with 50% discount - the highest sale ever! To utitlize the offer, you have to use the coupon code <span class="text-danger">HONDA50</span>. Grab your dream HONDA CBR before the SALE is closed. 
+        <br>
+        <span class="text-danger">This sale offer will be withdrawn at December 1st, 2022.</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn background-orange-color text-light">Shop now</button>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <div class="d-flex justify-content-center">
       <img src="images/header-bike.png" alt="" class="img-fluid mt-4 mt-lg-0 mt-md-0">
@@ -62,8 +87,8 @@
         <!-- featured bikes section -->
         <section class="container-fluid pt-5">
         <div class="text-center">
-    <h1>Featured Bikes 2022</h1>
-    <p class="text-danger fw-bold">Best bike collection</p>
+    <h1 class="fs-1 fw-bold text-dark">Featured Bikes 2022</h1>
+    <p class="orange-color fw-semibold fs-6">Best bike collection</p>
     </div>
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 align-items-center justify-content-evenly justify-items-center g-5 mt-1">
       <img style="width: 18rem; height: 15.188rem; filter: grayscale(1)" src="images/feature-bike.jpg" alt="" class="img-fluid">
@@ -74,7 +99,7 @@
 
         <!-- latest news section -->
         <section class="container mt-5">
-          <h1 class="text-center fw-bold my-5">Latest News</h1>
+          <h1 class="text-center fw-bold text-dark fs-1 my-5">Latest News</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card h-100 mx-auto w-75 border rounded-4 p-3">
@@ -82,7 +107,7 @@
                 <div class="card-body px-0 pb-0">
                   <h5 class="card-title">Ducati XDIAVEL S-73</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                  <button class="btn btn-danger mt-4 py-2 px-3">Read More</button>
+                  <button class="btn button-design mt-4 py-2 px-3">Read More</button>
                 </div>
               </div>
             </div>
@@ -92,7 +117,7 @@
                 <div class="card-body px-0 pb-0">
                   <h5 class="card-title">Motorcycles & Scooters</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                  <button class="btn btn-danger mt-4 py-2 px-3">Read More</button>
+                  <button class="btn button-design mt-4 py-2 px-3">Read More</button>
                 </div>
               </div>
             </div>
@@ -102,7 +127,7 @@
                 <div class="card-body px-0 pb-0">
                   <h5 class="card-title">2021 Honda CBR500R</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-                  <button class="btn btn-danger mt-4 py-2 px-3">Read More</button>
+                  <button class="btn button-design mt-4 py-2 px-3">Read More</button>
                 </div>
               </div>
             </div>
@@ -111,7 +136,7 @@
 
         <!-- happy clients' section -->
         <section class="container-fluid mt-5">
-<h1 class="text-center text-dark fw-bold my-5">Happy <span class="text-warning">Clients</span></h1>
+<h1 class="text-center text-dark fw-bold fs-1 my-5">Happy <span class="orange-color">Clients says</span></h1>
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
   <div class="col">
     <div class="card h-100 py-3 mx-auto w-75">
@@ -172,7 +197,7 @@
 
         <!-- FAQ section -->
         <section class="container mt-5 px-4">
-          <h1 class="text-center text-dark my-5">Frequently Asked <span class="text-danger">Questions</span></h1>
+          <h1 class="text-center text-dark fw-bold fs-1 my-5">Frequently Asked <span class="orange-color">Questions</span></h1>
           <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 align-items-center justify-content-center gy-4 px-lg-5">
             <div class="d-flex justify-content-center">
               <img style="width: 27rem;" src="images/faq.png" alt="" class="img-fluid">
